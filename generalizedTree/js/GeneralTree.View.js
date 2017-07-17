@@ -107,6 +107,10 @@ GeneralTree.View = (function(){
 			error   : 'error'
 		});
 	};
+	TreeView.prototype.setIsOpen = function(treeAry){
+		this.collection.setIsOpen(treeAry);
+		return this;
+	}
 	// ---------- View Object End ----------
 	
 	var create = function(obj,flg){

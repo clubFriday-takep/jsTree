@@ -18,6 +18,7 @@
 					
 					var ary = $(this).jstree().get_json('#', {flat:true});
 					console.log(ary);
+					GeneralTree.View.MyView.setIsOpen(ary);
 				}
 			}
 		}
