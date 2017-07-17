@@ -1,0 +1,47 @@
+﻿<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- third parties -->
+		<script src="https://js.cybozu.com/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://js.cybozu.com/jstree/3.3.4/jstree.min.js"></script>
+		<link rel="stylesheet" href="https://js.cybozu.com/jstree/3.3.4/themes/default/style.min.css">
+		
+		<!-- MyJS -->
+		<script src="js/Connector.js"></script>
+		<script src="js/DummyConnector.js"></script>
+		<script src="js/Stub.js"></script>
+		<script src="js/Repository.js"></script>
+		<script src="js/GeneralTree.js"></script>
+		<script src="js/GeneralTree.Adapter.js"></script>
+		<script src="js/GeneralTree.Template.js"></script>
+		<script src="js/GeneralTree.Collection.js"></script>
+		<script src="js/GeneralTree.Contextmenu.js"></script>
+		<script src="js/GeneralTree.View.js"></script>
+		<script src="js/GeneralTree.Events.js"></script>
+		
+		<title>Simple Tree</title>
+		
+		<style></style>
+		
+	</head>
+	<body>
+		
+		<!-- Main -->
+		<div id="main">
+			<button id="refresh">Refresh!</button>
+		</div>
+		
+		</br>
+		
+		<!-- Tree -->
+		<div id="tree"></div>
+		
+		<!-- scripts -->
+		<script>
+			$(function(){
+				GeneralTree.init();
+			});
+		</script>
+		
+	</body>
+</html>
